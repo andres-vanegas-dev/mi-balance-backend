@@ -6,10 +6,13 @@ from pydantic import BaseModel  # opcional, para validación
 
 app = FastAPI()
 
-# CORS
+# CORS - Configuración específica para producción
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=[
+        "http://localhost:3000",  # Desarrollo local
+        "https://mi-balance-frontend.onrender.com"  # URL del frontend en Render
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

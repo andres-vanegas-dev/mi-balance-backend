@@ -1,33 +1,5 @@
 {
-    "ingresos": [
-        {
-            "monto": 1900000,
-            "description": "nomina",
-            "id": 1,
-            "fecha": "2026-02-23 21:23:00.790245"
-        },
-        {
-            "monto": 10000000000000,
-            "description": "pal sople",
-            "id": 2,
-            "fecha": "2026-02-24 19:38:39.580355"
-        }
-    ],
-    "gastos": [
-        {
-            "monto": 1212121,
-            "categoria": "Comida",
-            "description": "aaaaaaaaaaaaa",
-            "id": 1,
-            "fecha": "2026-02-23 21:22:03.007945"
-        },
-        {
-            "monto": 100000000000000,
-            "categoria": "Salud",
-            "description": "sida",
-            "id": 2,
-            "fecha": "2026-02-24 19:38:52.483440"
-        }
-    ],
+    "ingresos": [],
+    "gastos": [],
     "recordatorios": []
 }
